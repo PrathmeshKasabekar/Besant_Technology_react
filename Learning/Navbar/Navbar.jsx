@@ -51,6 +51,11 @@ const Navbar = () => {
                 Day7
               </Link>
             </li>
+            <li>
+              <Link to="/daynine" className="hover:text-blue-400 transition">
+                Day9
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -13,6 +13,7 @@ import Products from "./Products/Products";
 import ProductView from "./Productss/ProductView";
 import NormalComponent from "./Day8/NormalComponent";
 import Day9 from "./Day8file2/HOC2";
+import Main9 from "./Day9/Main9";
 
 import Param from "./Productss/Param";
 import Day8 from "./Day8/HOC";
@@ -67,6 +68,7 @@ const Router = () => {
         <Route path="/productview" element={<ProductView />} />
         <Route path="/hoc1" element={<Day8 />} />
         <Route path="/hoc2" element={<Day9 />} />
+        <Route path="/daynine" element={<Main9 />} />
       </Routes>
     </div>
   );

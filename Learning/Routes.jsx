@@ -11,8 +11,12 @@ import Day7 from "./Day7/Day7";
 import Navbar from "./Navbar/Navbar";
 import Products from "./Products/Products";
 import ProductView from "./Productss/ProductView";
+import NormalComponent from "./Day8/NormalComponent";
+import Day9 from "./Day8file2/HOC2";
 
 import Param from "./Productss/Param";
+import Day8 from "./Day8/HOC";
+
 const Router = () => {
   const students = [
     { name: "Ranjit", age: "20", isStudent: true },
@@ -61,6 +65,8 @@ const Router = () => {
         <Route path="/daysix" element={<Day6 />} />
         <Route path="/dayseven" element={<Day7 />} />
         <Route path="/productview" element={<ProductView />} />
+        <Route path="/hoc1" element={<Day8 />} />
+        <Route path="/hoc2" element={<Day9 />} />
       </Routes>
     </div>
   );

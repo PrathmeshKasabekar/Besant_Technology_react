@@ -1,19 +1,21 @@
 import React, { useState } from "react";
-import IPL from "./IPL";
+// import IPL from "./IPL";
+import GetApiData from "./GetApiData";
+import PostDataApi from "./PostApiData";
 
 const Main9 = () => {
   const [message, setMessage] = useState("");
 
   const goForTrophy = (value) => {
-    setMessage(value); // 👈 this updates UI
+    setMessage(value);
   };
 
   return (
     <div>
-      <IPL name="MI fans" handle={goForTrophy} />
+      {/* <IPL name="MI fans" handle={goForTrophy} /> */}
 
-      {/* 👇 This prints on page */}
-      <h2>{message}</h2>
+      {/* <h2>{message}</h2> */}
+      <PostDataApi />
     </div>
   );
 };

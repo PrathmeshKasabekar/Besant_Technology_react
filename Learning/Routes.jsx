@@ -18,6 +18,7 @@ import Main9 from "./Day9/Main9";
 import Param from "./Productss/Param";
 import Day8 from "./Day8/HOC";
 import Day10 from "./Day10/Day10";
+import Day11 from "./Day11/Day11";
 
 const Router = () => {
   const students = [
@@ -71,6 +72,7 @@ const Router = () => {
         <Route path="/hoc2" element={<Day9 />} />
         <Route path="/daynine" element={<Main9 />} />
         <Route path="/dayten" element={<Day10 />} />
+        <Route path="/dayeleven" element={<Day11 />} />
       </Routes>
     </div>
   );
